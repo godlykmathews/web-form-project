@@ -19,6 +19,15 @@
 
     <div class="container">
         <h1>Contact Us</h1>
+        
+        <!-- Success message that will be shown after submission -->
+        <div id="success-message" class="success-container hidden">
+            <i class="fas fa-check-circle"></i>
+            <h2>Thank You!</h2>
+            <p>Your form has been submitted successfully. We'll get back to you soon!</p>
+            <button id="reset-form" class="reset-btn">Submit Another Message</button>
+        </div>
+        
         <form id="contactForm" novalidate>
             <div class="form-group">
                 <label for="name">Name:</label>
